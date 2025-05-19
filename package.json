@@ -1,0 +1,13 @@
+{
+  "name": "cpu-stress-server",
+  "version": "1.0.0",
+  "description": "A server with an API endpoint that stresses CPU when accessed",
+  "main": "cpu-stress-server.js",
+  "scripts": {
+    "start": "node cpu-stress-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 
